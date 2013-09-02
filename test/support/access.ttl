@@ -1,0 +1,7 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+
+[
+	acl:accessTo <allow>;
+	acl:mode acl:Read;
+	acl:agent <http://example.com/agent#me>
+].

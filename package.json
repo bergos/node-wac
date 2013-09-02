@@ -1,0 +1,30 @@
+{
+  "name": "wac",
+  "version": "0.0.1",
+  "description": "Web Access Control",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/bergos/node-wac",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bergos/node-wac.git"
+  },
+  "keywords": [
+    "wac",
+    "access control"
+  ],
+  "author": {
+    "name": "Thomas Bergwinkl",
+    "email": "bergi@axolotlfarm.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergos/node-wac/issues"
+  },
+  "dependencies": {
+    "rdf": ">=2.1.1",
+    "underscore": ">=1.5.0"
+  }
+}
