@@ -20,6 +20,12 @@ Example code:
 This code creates an access control object using the rules defined in the turtle file 'access.ttl' with the base URL 'http://example.com'.
 The last line tests access for the resource 'http://example.com/resource' using HTTP method 'GET' for agent 'http://example.com/agent#me'.
 
+Express middleware example code:
+
+`app.use(accessControl.middleware({}));`
+
+Uses express/connect middleware functionality of the previously created `accessControl` object. 
+
 ### wac options
 
 #### cors (default: false)
